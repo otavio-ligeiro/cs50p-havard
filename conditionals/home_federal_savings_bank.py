@@ -19,4 +19,5 @@ def verify_greeting(greeting):
   else:
     print("$100")
 
-main()
+if __name__ == "__main__":
+    main()
