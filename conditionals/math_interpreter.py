@@ -1,9 +1,9 @@
 def main():
-  expression = get_expression()
+  expression = input_expression()
   operators = remove_space(expression)
   print_result(operators)
 
-def get_expression():
+def input_expression():
   expression = input("Expression: ")
   return expression
 

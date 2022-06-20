@@ -1,8 +1,8 @@
 def main():
-  file_name = get_file_name()
+  file_name = input_file_name()
   print_file_extension(file_name)
 
-def get_file_name():
+def input_file_name():
   file_name = input("File Name: ")
   return file_name
 

@@ -1,9 +1,9 @@
 def main():
-  answer = get_answer()
+  answer = input_answer()
   answer = standardize_answer(answer)
   verify_answer(answer)
 
-def get_answer():
+def input_answer():
   answer = input("What is the Answer to the Great Question of Life, the Universe, and Everything? ")
   return answer
 

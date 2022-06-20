@@ -1,9 +1,9 @@
 def main():
-    time = get_time()
+    time = input_time()
     time = convert(time)
     print_meal(time)
 
-def get_time():
+def input_time():
   time = input("What time is it? ")
   return time
 

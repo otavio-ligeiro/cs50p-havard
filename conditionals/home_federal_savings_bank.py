@@ -1,9 +1,9 @@
 def main():
-  greeting = get_greeting()
+  greeting = input_greeting()
   greeting = standardize_greeting(greeting)
   verify_greeting(greeting)
 
-def get_greeting():
+def input_greeting():
   greeting = input("Greeting: ")
   return greeting
 
